@@ -85,7 +85,6 @@ li{
     padding: 0.3rem;
     border-radius: 5px;
     width: 200px;
-    font-family: 'Poppins', sans-serif;
     border:groove;
 }
 
@@ -95,7 +94,8 @@ li{
     width:100%;
 }
 .label-titulo {
-  margin-top:30px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 /*dropdawns*/
 .dropdown {
@@ -107,4 +107,22 @@ li{
     border: groove;
 }
 
+.tex_descripcion {
+    padding: 0.3rem;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    border: groove;
+}
+
+.boton_enviar {
+    margin-top: 30px;
+    width: 50%;
+    height: 30px;
+    background-color: rgb(124, 105, 239);
+    border-radius: 5px;
+    border: medium;
+    color: white;
+    cursor: pointer;
 }

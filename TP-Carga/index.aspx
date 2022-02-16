@@ -23,7 +23,7 @@
             <div class="box">
 
                 <div class="file">
-                    <asp:TextBox ID="tbRuta" runat="server" CssClass="tex_ruta"></asp:TextBox>
+                    <asp:TextBox Style="font-family: 'Poppins', sans-serif;" placeholder="Seleccione un archivo.." readonly="true" ID="tbRuta" runat="server" CssClass="tex_ruta"></asp:TextBox>
                     <label class="lboton" for="archivo">buscar archivo</label>
                     <input id="oFile" type="file" class="boton_archivo" onchange="javascript: form1.submit();" runat="server" name="oFile" />
                 </div>
@@ -33,6 +33,14 @@
                     <asp:DropDownList ID="DCarrera" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DCarrera_SelectedIndexChanged" CssClass="dropdown"></asp:DropDownList>
                     <asp:DropDownList ID="DAltaCarrera" runat="server" AutoPostBack="true" CssClass="dropdown"></asp:DropDownList>
                 </div>
+                
+                <div class="dropdown_box">
+                    <label class="label-titulo">Descripcion</label>
+                    <textarea placeholder="Descripcion..." runat="server" class="tex_descripcion"></textarea>
+                </div>
+
+                <asp:Button CssClass="boton_enviar" runat="server" Text="Enviar"/>
+
             </div>
 
 

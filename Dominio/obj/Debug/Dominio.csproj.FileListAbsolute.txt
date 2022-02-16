@@ -4,3 +4,9 @@ C:\Users\Edwin salcedo\Desktop\TPcarga\TP-Carga\Dominio\obj\Debug\Dominio.csproj
 C:\Users\Edwin salcedo\Desktop\TPcarga\TP-Carga\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Edwin salcedo\Desktop\TPcarga\TP-Carga\Dominio\obj\Debug\Dominio.dll
 C:\Users\Edwin salcedo\Desktop\TPcarga\TP-Carga\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Dominio\bin\Debug\Dominio.dll
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Dominio\obj\Debug\Dominio.dll
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Dominio\obj\Debug\Dominio.pdb

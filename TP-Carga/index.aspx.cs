@@ -24,7 +24,7 @@ namespace TP_Carga
             {
                 strFolder = Server.MapPath("./");
                 strFileName = oFile.PostedFile.FileName;
-                strFileName = Path.GetFileName(strFolder);
+                strFileName = Path.GetFileName(strFileName);
 
                 strFilePath = strFolder + strFileName;
             
