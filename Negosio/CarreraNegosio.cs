@@ -8,6 +8,10 @@ using System.Data.Odbc;
 
 namespace Negosio
 {
+
+
+
+
     public class CarreraNegosio
     {
 

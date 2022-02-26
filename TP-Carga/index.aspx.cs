@@ -14,21 +14,19 @@ namespace TP_Carga
     {
         CarreraNegosio listaNeg = new CarreraNegosio();
         List<Carrera> lista;
-        string strFileName;
-        string strFilePath;
         string strFolder;
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (oFile.Value != "")
+            if (uFile.HasFile)
             {
-                strFolder = Server.MapPath("./");
-                strFileName = oFile.PostedFile.FileName;
-                strFileName = Path.GetFileName(strFileName);
+                strFolder = Server.MapPath(uFile.PostedFile.FileName);
+                
+                Path.GetDirectoryName(strFolder);
 
-                strFilePath = strFolder + strFileName;
-            
-                tbRuta.Text= strFilePath; 
+
+                
+                tbRuta.Text = strFolder;
             }
             lista = listaNeg.list();
             if (!IsPostBack)

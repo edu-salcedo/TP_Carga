@@ -33,13 +33,13 @@ namespace TP_Carga
         protected global::System.Web.UI.WebControls.TextBox tbRuta;
 
         /// <summary>
-        /// oFile control.
+        /// uFile control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputFile oFile;
+        protected global::System.Web.UI.WebControls.FileUpload uFile;
 
         /// <summary>
         /// DCarrera control.

@@ -8,7 +8,7 @@
     <link href="Style.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" method="post" enctype = "multipart/form-data" runat="server">
         <div class="nav">
             <ul class="nav_link">
                 <li><a href="#" class="link">inicio</a></li>
@@ -25,7 +25,7 @@
                 <div class="file">
                     <asp:TextBox Style="font-family: 'Poppins', sans-serif;" placeholder="Seleccione un archivo.." readonly="true" ID="tbRuta" runat="server" CssClass="tex_ruta"></asp:TextBox>
                     <label class="lboton" for="archivo">buscar archivo</label>
-                    <input id="oFile" type="file" class="boton_archivo" onchange="javascript: form1.submit();" runat="server" name="oFile" />
+                    <asp:FileUpload ID="uFile" class="boton_archivo" runat="server" onchange="javascript: form1.submit();" />
                 </div>
 
                 <div class="dropdown_box">
