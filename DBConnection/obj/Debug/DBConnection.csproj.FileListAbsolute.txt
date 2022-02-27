@@ -1,0 +1,6 @@
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\DBConnection\bin\Debug\DBConnection.dll
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\DBConnection\bin\Debug\DBConnection.pdb
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\DBConnection\obj\Debug\DBConnection.csprojAssemblyReference.cache
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\DBConnection\obj\Debug\DBConnection.csproj.CoreCompileInputs.cache
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\DBConnection\obj\Debug\DBConnection.dll
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\DBConnection\obj\Debug\DBConnection.pdb

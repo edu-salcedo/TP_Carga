@@ -21,11 +21,6 @@ namespace TP_Carga
             if (uFile.HasFile)
             {
                 strFolder = Server.MapPath(uFile.PostedFile.FileName);
-                
-                Path.GetDirectoryName(strFolder);
-
-
-                
                 tbRuta.Text = strFolder;
             }
             lista = listaNeg.list();

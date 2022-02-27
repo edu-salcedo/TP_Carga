@@ -187,3 +187,5 @@ C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\TP-Carga\obj\Debug\
 C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\TP-Carga\obj\Debug\TP-Carga.csproj.CopyComplete
 C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\TP-Carga\obj\Debug\TP-Carga.dll
 C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\TP-Carga\obj\Debug\TP-Carga.pdb
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\TP-Carga\bin\DBConnection.dll
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\TP-Carga\bin\DBConnection.pdb

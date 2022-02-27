@@ -5,35 +5,29 @@ using System.Text;
 using System.Threading.Tasks;
 using Dominio;
 using System.Data.Odbc;
+using DBConnection;
 
 namespace Negosio
 {
-
-
-
-
     public class CarreraNegosio
     {
-
         public List<Carrera> list()
         {
             List<Carrera> lista = new List<Carrera>();
-            OdbcConnection DbConnection = new OdbcConnection("DSN=DATA");
 
             try
             {
-                DbConnection.Open();
-                OdbcCommand comand = new OdbcCommand("select cacu_idcarrcurs,cacu_descripcion from carrerascursos", DbConnection);             //  OdbcDataAdapter dat = new OdbcDataAdapter("select *from carrerascursos",DbConnection);
-                OdbcDataReader reader;
-                reader = comand.ExecuteReader();
+                DBConnection.DBConnection.getInstance().setComand("select cacu_idcarrcurs,cacu_descripcion from carrerascursos");             //  OdbcDataAdapter dat = new OdbcDataAdapter("select *from carrerascursos",DbConnection);
+                DBConnection.DBConnection.getInstance().ExecuteReader();
+                OdbcDataReader readed = DBConnection.DBConnection.getInstance().getReaded();
 
                 lista = new List<Carrera>();
-                while (reader.Read())
+                while (readed.Read())
                 {
-                    lista.Add(new Carrera((int)Convert.ToInt32(reader["cacu_idcarrcurs"]), (string)reader["cacu_descripcion"]));
+                    lista.Add(new Carrera((int)Convert.ToInt32(readed["cacu_idcarrcurs"]), (string)readed["cacu_descripcion"]));
 
                 }
-                reader.Close();
+                readed.Close();
              }
              catch
              {
@@ -46,16 +40,12 @@ namespace Negosio
         public List<Carrera> listAlta(string id)
         {
             List<Carrera> lista = new List<Carrera>();
-            OdbcConnection DbConnection = new OdbcConnection("DSN=DATA");
 
             try
             {
-                DbConnection.Open();
-                OdbcCommand comand = new OdbcCommand("select ccal_idccalta,ccal_descripcion from carrerascursosalta where ccal_idcarrcurs ='"+id+"'", DbConnection);             //  OdbcDataAdapter dat = new OdbcDataAdapter("select *from carrerascursos",DbConnection);
-               
-                //comand.Parameters.AddWithValue("@id", id);
-                OdbcDataReader reader;
-                reader = comand.ExecuteReader();
+                DBConnection.DBConnection.getInstance().setComand("select ccal_idccalta,ccal_descripcion from carrerascursosalta where ccal_idcarrcurs ='"+id+"'");             //  OdbcDataAdapter dat = new OdbcDataAdapter("select *from carrerascursos",DbConnection);
+                DBConnection.DBConnection.getInstance().ExecuteReader();
+                OdbcDataReader reader = DBConnection.DBConnection.getInstance().getReaded();
 
                 lista = new List<Carrera>();
                 while (reader.Read())

@@ -16,3 +16,5 @@ C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Negosio\obj\Debug\N
 C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Negosio\obj\Debug\Negosio.csproj.CopyComplete
 C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Negosio\obj\Debug\Negosio.dll
 C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Negosio\obj\Debug\Negosio.pdb
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Negosio\bin\Debug\DBConnection.dll
+C:\Users\Andres\OneDrive\Escritorio\WebApplication1\TP_Carga\Negosio\bin\Debug\DBConnection.pdb
